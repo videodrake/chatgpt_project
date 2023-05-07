@@ -1,0 +1,143 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  a {
+    color: #8a65b8;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+
+  /* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8080ff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  header h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+  nav a {
+    color: #fff; 
+  }
+  
+  nav a:hover {
+    color: #f6f1f9; 
+  }
+  
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+ 
+  
+  /* Main Styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #5a4184;
+  }
+  
+  p {
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 3;
+    color: #333;
+  }
+  
+  ul {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #5a4184;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f6f1f9;
+  }
+  
+  input[type='text']:focus,
+  input[type='email']:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #c5b0d0;
+  }
+  
+  button[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #5a4184;
+    color: #fff;
+    border
+  
