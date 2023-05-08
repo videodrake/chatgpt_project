@@ -46,5 +46,5 @@ def ox_quiz():
 
     print(f"최종 점수는 {score}점입니다.")
 
-
-ox_quiz()
+if __name__ == "__main__":
+    ox_quiz()
